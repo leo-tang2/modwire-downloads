@@ -1,11 +1,13 @@
-# Modwire public test installers
+# Modwire 0.1.13 public test installers
 
-Version 0.1.12 uses Supabase accounts and the hosted Modwire backend. Download the Windows x64 setup or Apple Silicon DMG without a GitHub account.
+Download without a GitHub or Vercel account: Windows x64 setup and Apple Silicon Mac DMG. The official page is https://modwire-gamma.vercel.app/downloads/ .
 
-Supported bounded workflows: Minecraft Java 1.21.4 English language resource packs; on Windows, one craftable sword using Steam tModLoader for Terraria 1.4.4.9/.NET 8. One submission authorizes only that job and selected installation scope, with limits and saved progress. Other games/mod types still require supported adapters and exact installation review.
+This update includes the approved circular app icon, inline password entry, native saved-session restoration and outage handling, eligible single-player library filtering, direct game-assistant navigation and bounded original mod creation. Support is specific to each adapter; a package build does not establish universal modding support.
 
-Verified accounts start with 25 free AI credits, subject to remaining service limits. Public verification/reset email delivery remains limited until an owned sending domain is configured. Purchases remain off.
+Windows is unsigned. The Mac package is ad-hoc signed and NOT notarized: Gatekeeper assessment rejects this app and disk image on the tested Mac. The release app was not launched, to preserve the owner's profile. Apple Developer ID signing and notarization are still required for normal public distribution. No security bypass is included or recommended by this download. A separately built isolated debug app passed Mac navigation, library/empty-state, Settings, Account and masked signup/signin checks; that does not make this release-profile DMG notarized.
 
-Windows is unsigned. The Mac package is ad-hoc signed and not notarized. This release passed automated/synthetic checks; no new live AI generation or game launch was run for publication. Package success is not universal game compatibility.
+The complete source build f8f3753539030c78214ec8cbfe834af39e29a778 passed CI run 42956346574. Installer bytes/hashes and notices were checked. The candidate Mac package was checked on the connected macOS 26.7.2 ARM64 computer. No new AI generation, game modification or real payment was run for this publication.
 
-Source build: 80d0d724a2585e1f70250d7cd28f7d7c502fc789. License and third-party notices are included in the installed resources. Universal Modder's full MIT notice is retained. Older installers remain available for history.
+Accounts use the existing Supabase integration and native OS credential store. The existing 25-credit grant and all prior balances are preserved. General verification email needs an owned sending domain; email confirmation stays enabled. Public shared Nexus service authorization is still pending. Credit purchases and auto refill remain gated off during testing; the new planned offer is $5 for 300 credits.
+
+Source remains in the private owner repository. Required project and dependency notices are in the application; the complete incorporated Universal Modder MIT notice is retained. Older installers remain in repository history and their versioned filenames.
