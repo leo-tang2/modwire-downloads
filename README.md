@@ -1,13 +1,15 @@
-# Modwire 0.1.14 public test installers
+# Modwire public test installers
 
-Download Windows x64 or Apple Silicon Mac without a GitHub or Vercel login at https://modwire-gamma.vercel.app/downloads/ .
+Windows: 0.1.15. Mac: 0.1.14 (0.1.15 pending).
 
-This update adds the rotating Modwire startup logo, bounded local startup checks, deferred game discovery, automatic saved-session restore and refresh, and recovery from temporary account-service failures. The server fix is deployed. Existing single-player checks, supported Universal Modder workflows, account identities and balances are preserved.
+Download without a GitHub or Vercel login at https://modwire-gamma.vercel.app/downloads/ .
 
-Windows is unsigned. The Mac build is ad-hoc signed in CI and NOT notarized; macOS may block normal downloaded-app launch. This 0.1.14 package has not been launched on the connected Mac: the owner deferred that computer's testing. Windows visual/button checks were blocked by the desktop lock. Automated native, frontend and backend tests and package/configuration/icon/license checks passed for exact source 2ded7d0c771935cfb689b8c9f364872397fc686b, CI run 43051979018. Earlier isolated Windows development startup, real verified-account restore/refresh and sign-out checks passed. No new AI, payment or gameplay test was performed.
+Modwire 0.1.15 for Windows preserves conversations through connection interruptions, refreshes expired project checks automatically, repairs Epic detection and adds persistent Choose game folder support without launcher registration. No AI is used to find games.
 
-Public arbitrary-inbox verification email still requires a verified sender domain and custom SMTP; email confirmation remains required. Public shared Nexus application authorization and sales readiness gates remain unchanged. No additional grant or spending was created for this release.
+All application test steps and both native build steps passed in CI. The workflow then failed or stalled transferring artifacts. The Windows installer published here was rebuilt locally from the identical tested source and audited for architecture, public configuration, icons, notices and private material. The development app started, but visual button checks were blocked by desktop-control errors. Epic detection was tested with fixtures because this computer has no Epic installation records. No AI, gameplay, email or payment test was made; spending was $0.
 
-Private source remains in the owner's source repository. Required notices are included in the applications; older installers remain available by versioned filename/history.
+The Mac download remains 0.1.14. Its 0.1.15 update is blocked by GitHub package transfer/run-state failures; an alternate export is queued and unpublished. No connected-Mac runtime test was performed. Windows is unsigned; the existing Mac package is ad-hoc signed and not notarized. Publishing does not update the installed app. Conversation continuation retains the current running window, not a full process-restart transcript. Existing balances, spending caps, eligibility checks and creation workflows are preserved. Public arbitrary-inbox verification email still needs a verified sending domain/SMTP.
 
-CI limitation: the Linux job was canceled after Ubuntu DNS failures on two runners, before application tests began. The aggregate CI run is not green. Windows/Mac build jobs passed; the frontend, backend, startup, account and workflow checks passed locally. No Linux installer is published.
+Native Windows build source: 6b230532c1888218f46a76f55fc99b0d14b12586. Original CI: https://github.com/leo-tang2/modwire/actions/runs/43094730341.
+
+Source remains private. Required notices are included. Older installers are preserved.
