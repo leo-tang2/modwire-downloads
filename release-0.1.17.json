@@ -1,0 +1,18 @@
+{
+  "version": "0.1.17",
+  "status": "public-testing",
+  "source": "5d4d2e0a298ba3c060f2f3cb826e44d8b5c176eb",
+  "windows": {
+    "filename": "Modwire_0.1.17_x64-setup.exe",
+    "bytes": 4344084,
+    "sha256": "ff030839c7def6a5ae97565325e0b01e67a9db7ecbd421a8ea411c305f4f3ec0",
+    "signing": "unsigned"
+  },
+  "macos": {
+    "filename": "Modwire_0.1.17_aarch64.dmg",
+    "bytes": 7319154,
+    "sha256": "8c7a43a3d54f7e44241a1f15e5f87dada26531f6dcab0ebacb7f27e78b80dd05",
+    "signing": "ad-hoc, not notarized"
+  },
+  "notice": "Public test builds. Game compatibility and real-game validation remain in progress."
+}
